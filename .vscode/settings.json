@@ -1,0 +1,25 @@
+{
+  // Ensure TypeScript and JSX type support is aligned with frontend setup
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Formatting and linting
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "eslint.workingDirectories": ["frontend"],
+
+  // Hide folders we never want to navigate
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/.next": true
+  },
+
+  // Optional: set specific terminal behavior or default shell
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  // Type-check on the fly
+  "typescript.validate.enable": true
+}

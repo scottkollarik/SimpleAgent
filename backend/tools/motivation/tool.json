@@ -1,0 +1,20 @@
+{
+  "name": "Motivational Quotes",
+  "module": "tools.motivation_tool.logic",
+  "function": "generate_motivation",
+  "arguments": {
+    "text": "str"
+  },
+  "requires": ["llm"],
+  "keywords": [
+    "motivate",
+    "inspire",
+    "encouragement",
+    "uplift",
+    "confidence",
+    "push",
+    "cheer",
+    "boost"
+  ],
+  "strict": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Word Count",
+  "module": "tools.wordcount_tool.logic",
+  "function": "get_word_count",
+  "arguments": {
+    "text": "str"
+  },
+  "requires": [],
+  "keywords": [
+    "word count",
+    "how many words",
+    "count words",
+    "number of words"
+  ],
+  "strict": true
+}

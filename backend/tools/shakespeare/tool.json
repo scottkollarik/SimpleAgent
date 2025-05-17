@@ -1,0 +1,17 @@
+{
+  "name": "Shakespeare Translator",
+  "module": "tools.shakespeare_tool.logic",
+  "function": "translate_to_shakespeare",
+  "arguments": {
+    "text": "str"
+  },
+  "requires": ["llm"],
+  "keywords": [
+    "Shakespeare",
+    "bard",
+    "thou",
+    "translate to old English",
+    "speaketh like Shakespeare"
+  ],
+  "strict": false
+}

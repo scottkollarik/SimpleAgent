@@ -1,0 +1,30 @@
+{
+  "name": "Math Tool",
+  "module": "tools.math_tool.logic",
+  "function": "evaluate_expression",
+  "arguments": {
+    "query": "str"
+  },
+  "requires": ["llm"],
+  "keywords": [
+    "calculate",
+    "math",
+    "add",
+    "subtract",
+    "multiply",
+    "divide",
+    "evaluate",
+    "exponential",
+    "square root",
+    "trigonometry",
+    "geometry",
+    "algebra",
+    "calculus",
+    "statistics",
+    "probability",
+    "math tool",
+    "math assistant",
+    "expression"
+  ],
+  "strict": true
+}
